@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Electricity Bill calculator</title>
+		<link rel="stylesheet" type="text/css" href="Bill_styling.css">
+	</head>
+	<body>
+		<h1><center>Domestic Electricity Bill Calculator</center></h1>
+		<form id="bill" name="bill_calculator" action="#"class="forms">
+		<center>
+			<div id="forms">
+				<span>
+					<label>No of Units used: </label>
+						<input type="number" name="" max="100" min="0" id="iUnit" placeholder="Number of units">
+					<label>kWh</label>
+				</span>
+				<br><br>
+				<span>
+					<input type="reset" name="clear" value="Clear">
+				</span>
+				<br><br>
+				<span>
+					<button type="button" onclick="checkBill();" style="width:auto;">Calculate my Bill</button>
+				</span>
+			</div>
+				<br><br>
+						
+				<a href="https://roar.media/english/life/reports/electricity-bill-calculated-analysis" target="_self">More information on how many bill is calculated</a>
+				&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="https://ceb.lk/bill-calculation-commercial/en" target="_self">Go to CEB web site</a>
+				<br>
+				<p><u>Created by: Sangavi Tharmaratnam</u></p>
+		</center>
+			<script src="function.js"></script>
+		</form>
+	</body>
+</html>

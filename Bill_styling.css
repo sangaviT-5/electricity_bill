@@ -1,0 +1,14 @@
+.forms{
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+}
+#forms{
+	border-radius: 25px;
+	border: 2px solid black; 
+	padding: 10px;
+	width: 500px;
+	height: 200px;
+}
